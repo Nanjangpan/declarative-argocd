@@ -10,8 +10,8 @@ spec:
     targetRevision: HEAD
     path: getting-started/k8s
   destination:
-    server: https://kubernetes.default.svc
-    namespace: default
+    server: https://d8d-tok1-api.line-apps.com:43100
+    namespace: milvus-argocd
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
